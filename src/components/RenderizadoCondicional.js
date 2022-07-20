@@ -28,8 +28,6 @@ export default class RenderizadoCondicional extends Component{
             <div>
                 <h2> Renderizado Condicional </h2>
                 {this.state.session? <Login/> : <Logout/>}
-                
-                
             </div>
         );
     }
