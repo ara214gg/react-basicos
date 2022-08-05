@@ -5,7 +5,7 @@ export default function Referencias() {
     let refMenu = useRef(),
         refMenuBtn = useRef();
 
-    console.log(refMenu, refMenuBtn);
+    //console.log(refMenu, refMenuBtn);
 
     const handleToggleMenu = (e) => {
         /*
